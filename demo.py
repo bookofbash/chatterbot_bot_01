@@ -47,10 +47,10 @@ def get_bot_response():
     userText = request.args.get('msg')
     botReply = str(bot.get_response(userText))
     noResponse = ["I don't know.", "I'm not sure about that.", "Is there a different way you can ask that?","I don't have a response for that.","I will have to give that some thought.","I don't really know what you are asking."]
-    if botReply is "IDKnull":
+    if botReply == "IDKnull":
         botReply = random.choice(noResponse)
     return botReply
 
 if __name__ == "__main__":
-    #app.run()
-    app.run(host='0.0.0.0', port=80)
+    app.run()
+    #app.run(host='0.0.0.0', port=80)

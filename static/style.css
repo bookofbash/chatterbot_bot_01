@@ -22,7 +22,7 @@ h3 {
 	width: 100%;
 	max-width: 750px;
 	margin-left: auto; margin-right: auto;
-  background-color: #ccc;
+  background-color: #dfeefa;
   padding:3px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -88,7 +88,7 @@ h3 {
     font-size: 17px;
     text-align: left;
     line-height: 20px;
-    background-color: #0000FF;
+    background-color: #63A9FF;
     padding: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -96,7 +96,7 @@ h3 {
 }
 
 .botText {
-    background-color: #F2B100;
+    background-color: #F7FF63;
     color: black;
     font-family: monospace;
     font-size: 17px;
